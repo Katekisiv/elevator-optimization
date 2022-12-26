@@ -70,16 +70,15 @@ class Elevator:
 elevator = Elevator()
 panel = ElevatorButtonPanel(elevator)
 
-panel.request_button_pressed(5)
-panel.request_button_pressed(3)
+panel.request_button_pressed(10)
+panel.request_button_pressed(8)
 panel.request_button_pressed(4)
-panel.request_button_pressed(2)
-panel.request_button_pressed(1)
+panel.request_button_pressed(7)
 panel.request_button_pressed(5)
 
-time.sleep(5)
-panel.request_button_pressed(4)
+time.sleep(10)
+panel.request_button_pressed(2)
 
 time.sleep(6)
 panel.request_button_pressed(4)
-panel.request_button_pressed(1)
+panel.request_button_pressed(2)
